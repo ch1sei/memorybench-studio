@@ -3,3 +3,5 @@
 Synthetic history fixture for testing GitHub timeline and activity rendering. This file is not a production milestone.
 
 Fixture phase: benchmark design.
+
+Fixture phase: evaluator contracts and scoring matrix.
