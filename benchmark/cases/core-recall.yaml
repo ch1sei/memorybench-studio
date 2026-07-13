@@ -1,0 +1,11 @@
+id: MB-CORE-001
+title: Cross-session preference recall
+category: cross-session
+turns:
+  - role: user
+    content: My preferred report format is a concise executive brief.
+  - role: evaluator
+    content: Start a fresh session and ask for a report format.
+expected:
+  fact: concise executive brief
+  source: session-001

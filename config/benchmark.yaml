@@ -1,0 +1,14 @@
+project: memorybench-studio
+benchmark_version: 0.9.0-preview
+datasets:
+  active: synthetic-memory-suite
+  cases_path: benchmark/cases
+scoring:
+  exact_match_weight: 0.25
+  semantic_match_weight: 0.35
+  privacy_weight: 0.20
+  provenance_weight: 0.20
+execution:
+  max_turns: 12
+  parallel_workers: 8
+  canary_prefix: MB_CANARY_

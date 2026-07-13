@@ -1,0 +1,4 @@
+name: memorybench-studio
+channels:
+  - conda-forge
+dependencies: []
